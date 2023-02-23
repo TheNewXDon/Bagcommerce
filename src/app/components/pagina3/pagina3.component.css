@@ -1,0 +1,21 @@
+.container {
+  background-color: white;
+  position: relative;
+}
+
+img {
+  margin-top: 70px;
+}
+
+.mat-typography h2 {
+  font-family: 'Gloock', serif;
+}
+
+.description {
+  font-size: 33px;
+  float: right;
+  width: 600px;
+  font-weight: 800;
+  font-family: 'Gloock', serif;
+  line-height: 70px;
+}

@@ -1,0 +1,40 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+}
+
+.active-route {
+  background-color: aliceblue;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-family: 'Gloock', serif;
+
+}
+.product:hover {
+  cursor: pointer;
+}
+
+.product::before {
+
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 5px;
+  background: linear-gradient(to right, white, blue);
+  transition: opacity 300ms ease-in-out;
+  opacity: 0;
+}
+
+
+.product:hover::before {
+  opacity: 1;
+}
